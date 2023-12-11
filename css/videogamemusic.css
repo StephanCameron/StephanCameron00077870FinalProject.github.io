@@ -1,0 +1,170 @@
+/*This is the CSS for Styling the Japanese music website Home Page*/
+
+.header-image { /*Heros Headers learned from W3c onlince https://www.w3schools.com/howto/howto_css_hero_image.asp*/
+  background-image: url("../images/headersizecheck.jpg");
+  height: 200px;
+  width: 200px
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid blue;
+  background-color: black;
+    } 
+	
+/*Header image for what is a jrpg page used from  https://www.deviantart.com/sailortrekkie92/art/Kingdom-Hearts-Twitter-Header-835310791*/
+.header-image2 { /*Heros Headers leanred from W3c onlince*/
+  background-image: url("../images/whatisjrpgheader.jpg"); 
+  height: 200px;
+  width: 200px
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid blue;
+  background-color: black;
+    } 
+
+
+.topnav {      /*Navigation links for Home Page top bar with links*/
+  overflow: hidden;
+  background-color: black;
+}
+
+
+.topnav a {  /* Styling of Links for webpage */
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  
+}
+
+	
+.topnav a:hover {  /* Color of hovering */
+  background-color: grey;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  background-color: none;
+  align-text: left;
+}
+
+.column {  /* Columns for main section */
+  float: left;
+  padding: 10px;
+}
+
+
+.column.side {  /*side column fittings*/
+  width: 20%;
+}
+
+.column.middle { /*Middle column*/
+  width: 50%;
+}
+
+/* Clear floats after the columns so no jumbling */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) { /*used to show webpage on mobile devices and smaller screens*/
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgrey;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+  background-color: lightgrey;
+}
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+
+
+/*FURTHER STYLING FOR ENTIRE WEBPAGE*/
+
+h1 { /*Styling for all H1 headers in the website*/
+  color: white;
+  background-color: black;
+  
+}
+
+p{ /*Styling for all paragragh content in the website*/
+  border: 1px solid;
+  border-color: grey;
+  color: white;
+  background-color: black;
+}
+
+h2 { /*Styling for all H2 headers in the website*/
+  background-color: black;
+  color: white;
+}
+
+.ol{ /*Styling for all ordered lists in the website*/
+  font-size: 5px;
+}
+
+li{ /*Styling for all list items in the website*/
+  font-size: 18px;
+  color: grey;
+  font-style: italic;
+}
+
+.desc { /*Styling for descriptive content in the image gallery webpage of the website with the composers content*/
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}
+
+body { /*Styling for the body or main content of the webpages of the website*/
+  background-color: black;
+}
+
+legend { /*Styling for legend on the form content on the home page*/
+  color: white;
+}
+
+label { /*Stytling for label content*/
+  color: white;
+}
+
+/*Learned css link color edit below from https://www.javatpoint.com/how-to-change-link-color-in-css#:~:text=To%20change%20the%20link%20color,()%20value%2C%20or%20HEX%20value. */
+
+a:link {color: white;} 
+a:visited {color: grey}
+a:hover {color: pink} 
+
+iframe {
+	border : 1px;
+}
+  
+
+	
+  
+
+
+
+
+
+
+
